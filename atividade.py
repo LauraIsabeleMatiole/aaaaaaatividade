@@ -1,6 +1,4 @@
-<<<<<<< HEAD
 
-=======
 print ('projeto fitness!!')
 while True:
     print("O que você quer fazer ?")
@@ -17,10 +15,18 @@ while True:
                 print("senha incorreta")
 while True:
  print('tela inicial')
- opcao = int (input('digite a opção que você deseja escolher (1: peso ideal, 2:, 3:  '))
+ opcao = int (input('digite a opção que você deseja escolher (1: peso ideal, 2:sugestões de comidas, 3:  '))
  
  if opcao == (1):
   print('peso ideal')
   input("Qual a sua altura")
+ elif opcao == (2):
+     
+  print('sugestões de comidas🥗🥪')
+  comidas = ['abacate', 'aveia', 'macarrão com brócolis', 'arroz', 'Lasanha de berinjela', 'Filé de peixe', 'couveflor', 'frango grelhado'  ]
+  calorias = [160, 53, 298,64, 130, 76,9, 200, 25, 146]
+  for i, comidas in enumerate(comidas):
+   print('algumas comidas que voce pode comer são:')
+   print(f'{comidas} tem {calorias[i]}')
     
->>>>>>> b5d8ff1db5b26b294483937e3d9b097309f923d4
+
