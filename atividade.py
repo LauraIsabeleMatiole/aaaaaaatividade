@@ -1,16 +1,31 @@
 
-
-print ('💪projeto fitness🥗')
-
-     print('Bem vindo!✨tela inicial✨')
-     opcao = int (input('digite a opção que você deseja escolher (1: peso ideal, 2:, 3:  '))
+print ('projeto fitness!!')
+while True:
+    print("O que você quer fazer ?")
+    option= input('"Logar","Cadastrar-se"')
+    if option == "Logar":
+        gmail =input("Digite seu gmail")
+        senha =input("digite sua senha")
+    elif option == "Cadastrar-se":
+        cadastro = input("Qual o seu gmail")
+        if cadastro != gmail:
+            print("gmail incorreto")
+            cadastro2 = input("Qual sua senha")
+            if cadastro2 != senha:
+                print("senha incorreta")
+while True:
+ print('tela inicial🏠')
+ opcao = int (input('digite a opção que você deseja escolher (1: peso ideal, 2:, 3:  '))
  
-    if opcao == (1):
-      print('peso ideal')
-    elif opcao == (2):
-     print('lista de calorias dos doces!🍭')
-     doces = ['chocolate','sorvete', 'bolo', 'jujubas', 'pão de mel', 'cookies', 'ovo de pascoa inteiro']
-     calorias = [546, 207, 257, 375, 263, 502, 1500]
-     for i, doces in enumerate(doces):
-      print(f'{doces} tem {calorias[i]}')
+ if opcao == (1):
+  print('peso ideal')
+  input("Qual a sua altura")
+    
 
+ elif opcao == (2):
+  print('lista de calorias dos doces!🍭')
+  comidas = ['abacate', 'aveia', 'macarrão com brócolis', 'arroz', 'Lasanha de berinjela', 'Filé de peixe', 'couveflor', 'frango grelhado'  ]
+  calorias = [160, 53, 298,64, 130, 76,9, 200, 25,]
+  for i, comidas in enumerate(comidas):
+    print('algumas comidas que voce pode comer são:')
+    print(f'{comidas} tem {calorias[i]}')
