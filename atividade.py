@@ -25,7 +25,7 @@ while True:
  elif opcao == (2):
   print('lista de calorias dos doces!🍭')
   comidas = ['abacate', 'aveia', 'macarrão com brócolis', 'arroz', 'Lasanha de berinjela', 'Filé de peixe', 'couveflor', 'frango grelhado'  ]
-  calorias = [160, 53, 298,64, 130, 76,9, 200, 25,]
+  calorias = [160, 53, 298,64, 130, 76,9, 200, 25, 146]
   for i, comidas in enumerate(comidas):
     print('algumas comidas que voce pode comer são:')
     print(f'{comidas} tem {calorias[i]}')
